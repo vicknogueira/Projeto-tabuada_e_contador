@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name='author' content='Vitória Nogueira da Costa'>
+    
+    <title>Exercício contagem</title>
+    <link rel="stylesheet" href="repete.css">
+    <link rel="stylesheet" href="../Ex14-Tabuada/tabuada.html">
+</head>
+<body>
+    <h1> Contagem </h1>
+    <section>
+        <div class="bloco-white">
+            <form action="get">
+                <label for="começo">De:<input type="number" required='required' pattern="[0-9]" name="inicio" id="inicio" min='1' max="100"></label>
+                <label for="fin">Até:<input type="number" required='required' pattern="[0-9]" name="final" id='final' min='1' max="100"></label>   
+                <label for="pass">Pule:<input type="number" required='required' pattern="[0-9]" name="passo" id="passo" min='1' max="100"></label>
+                <div id="resultado">
+                    <h3>preparando contagem...</h3>
+                    <p id="resposta">
+
+                    </p>
+                </div>
+                <div id="contembotao">
+                    <input type="submit" onclick='contar()' name="botao" id="botao" min='1' max="10">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class='botaoconta'>
+            <a href='../Ex14-Tabuada/tabuada.html'>  Programa de tabuada   </a>
+        </div>
+        <p>&copy Vick 01/2019</p>
+    </footer>
+    <script src="repeteEx.js"></script>
+</body>
+</html>

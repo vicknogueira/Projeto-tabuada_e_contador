@@ -1,0 +1,129 @@
+body{
+    background-color: white;
+}
+/*  ---------------- Título ---------------------------- */
+h1, a{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+/* ---------------- Section / Centro da página----------- */
+section{
+    display: flex;
+    justify-content: center;
+}
+.bloco-white{
+    width: 35em;
+    height: 28em;
+    background-color: rgba(130, 47, 16, 0.62);
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 15px;
+    box-shadow: inset -14px -13px 0px 0px #825847;
+}
+/* -------------------- Inputs ------------------------- */
+form{
+    display: block;
+    justify-content: center;
+    height: 10em;
+    padding: 3em 0em 0px 0em;
+}
+label{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+
+
+}
+#inicio, #fim{
+    margin-top: 10px;
+    width: 3em;
+    height: 22px;
+    border-radius: 2px;
+    border: 0;
+    padding: 4px 6px;
+    outline: none;/* tira a seleção do input*/
+    box-shadow: inset -2px -2px 0 0 #808080a6;
+}
+.bot{
+    padding: 11px 0px 13px 0;
+}
+#botao, .botaoconta{
+    border: 0;
+    width: 19em;
+    height: 2em;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: inset -2px -3px 0 0 #b1afaf;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+}
+#botao:active{
+    box-shadow: inset 2px 3px 0 0 #825847;
+}
+option:active{
+    background-color: #962020 !important;
+    color: #b51e1e !important;
+}
+.botaoconta{
+    margin: 1em 0 7px 0;
+    background-color: #6fbba6d1;
+    box-shadow: inset -2px -3px 0 0 #60a995;
+    padding-top: 1em;
+    width: 14em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.botaoconta:active{
+    box-shadow: inset 2px 3px 0 0 #a5a5a5;
+}
+/* ---------------- Situação da contagem ----------- */
+h3{
+    color: black;
+    font-size: 17px;
+    font-family: monospace;
+    background-color: #3ca985;
+    transition: 1s;
+    text-align: center;
+    transition-timing-function: cubic-bezier(0.05, -0.28, 0.28, 0.05);
+}
+/* ------------------- Resultado ----------------------------- */
+#resultado{
+    /* height: 16em; */
+    text-align: center;
+    transition: 1s;
+    width: 19em;
+    background-color: white;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset -3px -4px 0 0 #808080a3;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    overflow-y: unset;
+}
+/* #resultado:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+} */
+#resposta{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* -------------------- Autor --------------------------------- */
+footer{
+    text-align: center;
+    color: #3c3c3c;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-content: center;
+}

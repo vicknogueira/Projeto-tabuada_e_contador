@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(11, 90, 100, 0.55);
+}
+/*  ---------------- Título ---------------------------- */
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+/* ---------------- Section / Centro da página----------- */
+section{
+    display: flex;
+    justify-content: center;
+}
+.bloco-white{
+    width: 35em;
+    height: 22em;
+    border-radius: 2px;
+    background-color: rgb(92, 144, 150);
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+/* -------------------- Inputs ------------------------- */
+form{
+    display: grid;
+    width: 100%;
+    height: 10em;
+    padding: 4em 0em 0px 0em;
+}
+label{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+#inicio, #final, #passo{
+    margin-top: 10px;
+    width: 3em;
+    height: 22px;
+    border-radius: 2px;
+    border: 0;
+    margin-left: 41px;
+    padding: 4px 6px;
+}
+#final{
+    margin-left: 28px;
+}
+#passo{
+    margin-left: 14px;
+}
+#contembotao{
+    display: flex;
+    justify-content: center;
+}
+#botao, .botaoconta{
+    border: 0;
+    width: 16em;
+    height: 2em;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 2px 3px 0 0 #b1afaf;
+    outline: none;
+}
+.botaoconta{
+    margin: 1em 0 7px 0;
+    background-color: #6fbba6d1;
+    box-shadow: inset -2px -3px 0 0 #60a995;
+    padding-top: 1em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.botaoconta:active{
+    box-shadow: inset 2px 3px 0 0 #6e979c;
+}
+/* ---------------- Situação da contagem ----------- */
+h3{
+    color: black;
+    font-size: 17px;
+    font-family: monospace;
+    background-color: #79a4a9;
+    transition: 1s;
+    text-align: center;
+    box-shadow: 0px 0px 20px 13px #79a4a9;
+    transition-timing-function: cubic-bezier(0.05, -0.28, 0.28, 0.05);
+}
+/* ------------------- Resultado ----------------------------- */
+#resultado{
+    height: 4em;
+    text-align: center;
+    margin-right: 12px;
+    transition: 1s;
+}
+#resposta{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* -------------------- Autor --------------------------------- */
+footer{
+    text-align: center;
+    color: #3c3c3c;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-content: center;
+}

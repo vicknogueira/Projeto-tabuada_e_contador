@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name='author' content='Vitória Nogueira da Costa'>
+    
+    <title>Exercício de Tabuada</title>
+    <link rel="stylesheet" href="tabuada.css">
+</head>
+<body>
+    <h1> Tabuada </h1>
+    <section>
+        <div class="bloco-white">
+            <form action="get">
+                <label for="começo">Número:</label>
+                <input type="number" required='required' pattern="[0-9]" name="inicio" id="inicio" min='0'>
+                <label for="começo">até</label>
+                <input type="number" required='required' pattern="[0-9]" name="inicio" id="fim" min='1'>
+                <div class="bot">
+                    <input type="submit" onclick='Tabuada()' name="botao" id="botao" min='1' max="10">
+                </div>
+                
+                <select id="resultado" size='15'>
+                    <option id="opt" value="val1"></option>
+                </select>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class='botaoconta'>
+            <a href='../Contagem/repete.html'>  Programa de contagem   </a>
+        </div>
+        <p>&copy Vick 01/2019</p>
+    </footer>
+    <script src="tabuada.js"></script>
+</body>
+</html>
